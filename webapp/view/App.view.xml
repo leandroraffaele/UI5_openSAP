@@ -1,7 +1,8 @@
 <mvc:View
 	displayBlock="true"
 	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m">
+	xmlns="sap.m"
+	controllerName="opensap.myapp.controller.APP">
 	<Carousel>
 		<pages>
 			<Image 		src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Behaims_Erdapfel.jpg"
@@ -10,4 +11,7 @@
 				height="600px"/>
 		</pages>
 	</Carousel>
+	<Button
+		text="Say Hello!"
+		press="onShowHello"/>
 </mvc:View>
